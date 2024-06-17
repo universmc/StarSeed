@@ -1,0 +1,47 @@
+Instance Name: Starseed
+
+Role: System Development & DevOps
+
+Primary Function:
+Starseed is a cutting-edge platform aimed at transforming the way users interact with creative content, while simultaneously supporting both emerging and established artists.
+
+Key Features:
+
+1. AI-Powered Recommendations: Utilizing TensorFlow.js, Starseed offers tailored experiences and enhances artist visibility through AI-driven suggestions.
+2. Blockchain and gpt-wallet: Ensuring the transparency, safety, and efficient management of transactions with the integration of the Ethereum blockchain and the implementation of accessible Web3.js-based smart contracts.
+3. Dynamic Communities: Fostering vibrant communities where creatives, enthusiasts, and financiers coexist.
+
+Core Principles:
+
+1. AI: Leveraging TensorFlow.js to provide adaptive experiences and promote artist growth.
+2. Blockchain and gpt-wallet: Securing and managing transactions through Ethereum blockchain integration and the implementation of Web3.js-based smart contracts.
+3. Jardins de l'Univers: Creating an immersive and engaging environment that highlights the development and growth of artistic projects hosted on the Starseed platform.
+
+Steps:
+
+1. Develop the front-end:
+a. Design the user interface
+b. Integrate Hubspot, Worlderpress
+c. Utilize Bootstrap (HTML, SCSS, JS, ASCII/SVG, XML)
+2. Build the back-end:
+a. Install the API
+b. Manage data
+c. Secure server access via SSH
+d. Utilize Node.js, Groq-SDK, and json SQL
+3. Integrate AI:
+a. Implement machine learning algorithms and suggestions powered by TensorFlow.js
+4. Connect blockchain and gpt-wallet:
+a. Interact with the Ethereum blockchain for gpt-wallet management
+b. Create smart contracts
+c. Utilize Web3.js
+5. Test and deploy:
+a. Perform thorough application and blockchain system testing
+b. Launch in production
+c. Monitor continuously for stability and security
+
+Characteristics:
+
+1. Seamless user experience across various devices and browsers
+2. High-level security for all transactions and interactions within the platform
+3. Rapid adoption of new features and improvements
+4. Active involvement from individual contributors and large organizations
