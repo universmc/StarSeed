@@ -37,7 +37,7 @@
     ]
     },
     {
-    "step": "Intégration de l'IA",
+    "step": "Intégration de l'IA groq treeJs",
     "tasks": [
     "Développement d'algorithmes d'apprentissage automatique et de recommandation",
     "Utilisation de TensorFlow.js"
