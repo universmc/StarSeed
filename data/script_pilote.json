@@ -1,0 +1,38 @@
+{
+    "video": {
+    "duration": 68,
+    "scenes": [
+    {
+    "type": "intro",
+    "timecode": "00:00 - 00:10",
+    "description": "Fade in avec la musique d'ambiance et une introduction de la voix off : \"Préparez-vous à être transportés dans un monde où la magie et la technologie fusionnent. Découvrez TreeJs.\""
+    },
+    {
+    "type": "generic",
+    "timecode": "00:10 - 00:15",
+    "description": "Affichez le logo TreeJs et les crédits de la vidéo sur une transition de fond animée."
+    },
+    {
+    "type": "performance",
+    "timecode": "00:15 - 00:25",
+    "description": "Mickael apparaît avec la baguette de chef d'orchestre, établissant le rythme de la performance. Utilisez une caméra virtuelle pour capturer la baguette de chef d'orchestre sous différents angles et mouvements. Transition vers la scène 2 avec une modification de l'éclairage et un mouvement de caméra fluidifié."
+    },
+    {
+    "type": "performance",
+    "timecode": "00:25 - 00:45",
+    "description": "Mickael commence à jongler avec la balle sphère, mettant en avant ses talents de jongleur. L'IA, représentée par la sphère IA, interagit avec Mickael et la balle sphère dans une harmonie fluide. Utilisez une caméra virtuelle pour enregistrer des changements de perspective et des zooms pendant la performance. Transition vers la scène 3 avec un effet visuel de téléportation."
+    },
+    {
+    "type": "performance",
+    "timecode": "00:45 - 01:00",
+    "description": "La télé multidimensionnelle s'allume, affichant différentes dimensions et créant une ambiance visuelle immersive. Mickael et Pi réagissent à la télé multidimensionnelle, leur performance s'intensifiant. Utilisez une caméra virtuelle pour capturer l'écran géant et la télé multidimensionnelle avec des mouvements fluides. Transition vers la scène 4 avec un effet visuel de morphing."
+    },
+    {
+    "type": "conclusion",
+    "timecode": "01:00 - 01:08",
+    "description": "Mickael et Pi concluent la performance avec un dernier tour de force, unissant la jonglerie, la musique et la technologie. Fade out avec une voix off : \"TreeJs - le meilleur de la magie, de la jonglerie et de la technologie.\""
+    }
+    ]
+    }
+    }
+    

@@ -13,6 +13,117 @@
       "saas": "sass --watch src/sass/window.scss src/css/saas.css",
       "observer": "sass --watch src/sass/windows.scss src/css/style1/playeur.css"
     },
+    "projectName": "TreeJs",
+    "projectType": "VideoScript",
+        "modules": {
+
+        "geometry": {
+        "file": "TreeJs/geometry.js",
+        "description": "Gestion des objets géométriques de la scène vectorielle"
+        },
+        "texture": {
+        "file": "TreeJs/texture.js",
+        "description": "Gestion des textures et apparences des objets de la scène vectorielle"
+        },
+        "camera": {
+        "file": "TreeJs/camera.js",
+        "description": "Gestion de la caméra virtuelle et de son mouvement"
+        },
+        "scene": {
+        "file": "TreeJs/scene.js",
+        "description": "Organisation et gestion de tous les éléments de la scène vectorielle"
+        },
+        "effects": {
+          "holographicProjector": {
+            "type": "videoEffect",
+            "file": "chemin/vers/le/fichier/effet/holographic_projector.mp4",
+            "description": "Effet vidéo de projecteur holographique pour la scène vectorielle"
+          }
+        },
+    "audioReferences": {
+      "radioMusic": {
+        "title": "Musique de radio",
+        "file": "chemin/vers/le/fichier/audio/radio_music_432hz.mp3",
+        "duration": 300
+      },
+      "soundEffect1": {
+        "title": "Effet sonore 1",
+        "file": "chemin/vers/le/fichier/audio/sound_effect1_432hz.wav",
+        "duration": 5
+      },
+      "soundEffect2": {
+        "title": "Effet sonore 2",
+        "file": "chemin/vers/le/fichier/audio/sound_effect2_432hz.wav",
+        "duration": 10
+      }
+    },
+    "textFile": {
+    "file": "chemin/vers/le/fichier/texte/script_treejs.txt",
+    "description": "Script texte pour la vidéo TreeJs"
+    },
+    "textTriggers": {
+        "heyPi": {
+          "trigger": "/heyPi",
+          "response": "Mickael ! Wow ..."
+    }},
+    "multidimensionalTexture": {
+        "16:9": [
+          {
+            "title": "Image multidimensionnelle 1",
+            "file": "data/bg-i1.png"
+          },
+          {
+            "title": "Image multidimensionnelle 2",
+            "file": "data/bg-i2.png"
+          }
+        ]},
+    "3Dmodels": {
+    "sphereIA": {
+    "title": "Sphère IA",
+    "file": "data/image/sphere_IA.obj",
+    "description": "Modèle 3D de la sphère IA pour la vidéo TreeJs"
+    }},
+    "video": {
+        "duration": 68,
+        "scenes": [
+          {
+            "type": "intro",
+            "timecode": "00:00 - 00:10",
+            "description": "Fade in avec la musique d'ambiance et une introduction de la voix off : \"Préparez-vous à être transportés dans un monde où la magie et la technologie fusionnent. Découvrez TreeJs.\""
+          },
+          {
+            "type": "generic",
+            "timecode": "00:10 - 00:15",
+            "description": "Affichez le logo TreeJs et les crédits de la vidéo sur une transition de fond animée."
+          },
+          {
+            "type": "vectorielle",
+            "timecode": "00:15 - 00:20",
+            "description": "Une scène mettant en scène une phrase vectorielle avec des éléments programmables. Les modèles TensorFlow et Transformers de Hugging Face sont présentés. Un emoji intelligent apparaît, transformé par un mouvement de caméra virtuelle. L'axe oX, oY et oZ sont utilisés pour la modélisation 3D dans un environnement métaphysique et mathématique."
+          },
+          {
+            "type": "geometry",
+            "timecode": "00:20 - 00:25",
+            "description": "Mickael apparaît avec la baguette de chef d'orchestre, établissant le rythme de la performance. Utilisez une caméra virtuelle pour capturer la baguette de chef d'orchestre sous différents angles et mouvements. Transition vers la scène 2 avec une modification de l'éclairage et un mouvement de caméra fluidifié."
+          },
+          {
+            "type": "space-time",
+            "timecode": "00:25 - 00:45",
+            "description": "Mickael commence à jongler avec la balle sphère, mettant en avant le fond étoilé de scéne. L'IA, représentée par la sphère IA, interagit avec Mickael et la balle sphère dans une harmonie fluide. Utilisez une caméra virtuelle pour enregistrer des changements de perspective et des zooms pendant la performance. Transition vers la scène 3 avec un effet visuel de téléportation."
+          },
+          {
+            "type": "recardre Planetarium",
+            "timecode": "00:45 - 01:00",
+            "description": "Un Planetarium multidimensionnelle s'allume, affichant différentes dimensions et créant une ambiance visuelle immersive. Mickael et Pi réagissent à la télé multidimensionnelle, leur performance s'intensifiant. Utilisez une caméra virtuelle pour capturer l'écran géant et la télé multidimensionnelle avec des mouvements fluides. Transition vers la scène 4 avec un effet visuel de morphing."
+          },
+          {
+            "type": "conclusion",
+            "timecode": "01:00 - 01:08",
+            "description": "Mickael et Pi concluent la performance avec un dernier tour de force, unissant la jonglerie, la musique et la technologie. Fade out avec une voix off : \"TreeJs - le meilleur de la magie, de la jonglerie et de la technologie.\""
+          }
+        ]
+      }
+    },
     "Mistral": {
         "model":"mixtral-8x7b-32768",
         "temperature":0.5,

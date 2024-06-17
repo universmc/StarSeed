@@ -1,0 +1,28 @@
+{
+    "projectName": "TreeJs",
+    "projectType": "VideoScript",
+    "modules": {
+    "geometry": {
+    "file": "geometry.js",
+    "description": "Gestion des objets géométriques de la scène vectorielle"
+    },
+    "texture": {
+    "file": "texture.js",
+    "description": "Gestion des textures et apparences des objets de la scène vectorielle"
+    },
+    "camera": {
+    "file": "camera.js",
+    "description": "Gestion de la caméra virtuelle et de son mouvement"
+    },
+    "scene": {
+    "file": "scene.js",
+    "description": "Organisation et gestion de tous les éléments de la scène vectorielle"
+    }
+    },
+    "sceneVectorielle": {
+    "title": "Scène Vectorielle",
+    "timecode": "01:08 - 01:28",
+    "description": "Une scène mettant en scène une phrase vectorielle avec des éléments programmables. Les modèles TensorFlow et Transformers de Hugging Face sont présentés. Un emoji intelligent apparaît, transformé par un mouvement de caméra virtuelle. L'axe oX, oY et oZ sont utilisés pour la modélisation 3D dans un environnement métaphysique et mathématique."
+    }
+    }
+    
